@@ -1,0 +1,59 @@
+#achievements{
+    max-width: 1600px;
+    max-height: 99vh;
+    font-family: sans-serif;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#headachivements{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;   
+}
+#mainachievement{
+    max-width: 1300px;
+    max-height: 800px;
+    background-color: rgba(132, 119, 119, 0.087);
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+#imageachive{
+    overflow: hidden;
+    max-width: 1300px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 10px 40px 10px 40px;
+}
+#descachieve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+#samebox{
+    background-color: rgba(132, 119, 119, 0.087);
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    width: 350px;
+    height: 140px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

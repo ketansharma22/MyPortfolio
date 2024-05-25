@@ -1,0 +1,76 @@
+#profile{
+    max-width: 1600px;
+    height: 100vh;
+    max-height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    overflow: hidden;
+    gap: 100px;
+}
+#imagee{
+    border-radius: 250px;
+    width: 350px;
+    height: 370px;
+}
+
+#profiletext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family:sans-serif;
+gap: 10px;
+}
+#helo{
+    color: rgba(173, 181, 169, 0.806);
+    font-weight: bold;
+}
+#name{
+    columns: black;
+    font-size: 3rem;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+#role{
+    color: rgba(173, 181, 169, 0.806);
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#same{
+    cursor: pointer;
+    padding: 17px 40px ;
+    font-weight: bolder;
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 30px;
+    background-color: rgba(84, 83, 83, 0.957);
+    transition: ease-in-out .3s;
+    border: 2px solid  rgba(94, 87, 87, 0.957);
+    
+}
+
+#same:hover{
+    transform: scale(1.05);
+}
+#butons{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    max-height: 200px;
+    
+}
+#icons{
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    gap: 20px;
+}
+#href{
+    color: white;
+    max-width: 40px;
+    max-height: 50px;
+}
