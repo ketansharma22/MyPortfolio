@@ -71,3 +71,46 @@
 #projectname{
     margin: 3px;
 }
+#arrowwork{
+    cursor: pointer;
+    top: 402%;
+    left: 95%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:800px){
+    #arrowwork{
+        display: none;
+    }
+    #work{
+        gap: 0px;
+        margin-top: 100px;
+        margin: 10px 10px 10px 10px;
+        height: 1200px;
+    }
+    #workmain{
+        max-height: 800px;
+        padding: 10px;
+    }
+    #card{
+        max-width: 130px;
+
+        padding: 10px;
+    }
+    #cardimage{
+        max-width: 110px;
+    }
+    #click{
+        font-size: 10px;
+        padding: 5px;
+        max-width: 50px;
+    }
+    #anchor2{
+        gap: 5px;
+    }
+    #projectname{
+        font-size: small;
+    }
+}

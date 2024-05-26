@@ -86,3 +86,40 @@ gap: 7px;
     font-size: larger;
 }
 
+#arrowabout{
+    cursor: pointer;
+    top: 190%;
+    left: 90%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+@media(max-width:800px){
+    #arrowabout{
+        display: none;
+    }
+    #aboutme{
+        flex-direction: column;
+    }
+    #aboutimage{
+        width: 200px;
+    }
+    #down{
+        max-width: 350px;
+        margin-top: 40px;
+    }
+    #up{
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 10px;
+    }
+    
+    #third{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .educa{
+        display: none;
+    }
+}

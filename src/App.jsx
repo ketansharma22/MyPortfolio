@@ -6,6 +6,7 @@ import Profile from './components/Profile'
 import Expertise from './components/Expertise'
 import Projects from './components/Projects'
 import Achievements from './components/Achievements'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Expertise/>
       <Projects/>
       <Achievements/>
+      <Contact/>
     </div>
   )
 }

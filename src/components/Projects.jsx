@@ -6,7 +6,8 @@ import bubble from "../styling/images/bubble.png";
 import weather from "../styling/images/weather.png";
 import portf from '../styling/images/myport.png'
 import pass from "../styling/images/pass.png";
-
+import arrow from "../styling/images/arrowdown.png";
+import {Link} from 'react-scroll'
 function Projects() {
 
     const arr = [
@@ -68,6 +69,9 @@ function Projects() {
 
   return (
     <div id='work'>
+    <Link spy={true} smooth={true} offset={-50} duration={500} to="achievements">
+        <img id="arrowwork" src={arrow} />
+      </Link>
         <div id='headwork'>
         <p style={{fontWeight:100}} id='helo'>Browse My Recent</p>
         <p id='name'> Projects</p>

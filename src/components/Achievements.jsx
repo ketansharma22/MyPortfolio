@@ -4,6 +4,8 @@ import group from "../styling/images/group.jpeg";
 import ninja from "../styling/images/codingninja.png";
 import { Tilt } from "react-tilt";
 import { ssrImportKey } from "vite/runtime";
+import arrow from "../styling/images/arrowdown.png";
+import {Link} from 'react-scroll'
 function Achievements() {
   const defaultOptions = {
     reverse: true, // reverse the tilt direction
@@ -18,6 +20,9 @@ function Achievements() {
   };
   return (
     <div id="achievements">
+      <Link spy={true} smooth={true} offset={-50} duration={500} to="contact">
+        <img id="arrowachievement" src={arrow} />
+      </Link>
       <div id="headachivements">
         <p style={{ fontWeight: 100 }} id="helo">
           Let's Together Review My{" "}

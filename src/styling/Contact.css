@@ -1,0 +1,132 @@
+#contact{
+    max-width: 1600px;
+    height: 98vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    gap: 40px;
+}
+#lefthead{
+    margin-top: 100px;
+    font-size: xx-large;
+    max-width: 200px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rightbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    height: 60%;
+    background-color: rgba(132, 119, 119, 0.087);
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    border-radius: 40px;
+    padding: 50px;
+    gap: 20px;
+}
+input{
+    width: 90%;
+    height:70%;
+    background-color: rgba(132, 119, 119, 0.087);
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    border-radius: 15px;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: large;
+    margin: auto;
+}
+#inputlabel{
+    color: rgba(0, 255, 0, 0.772);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-size: medium;
+    margin-left: 10px;
+}
+#connect{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    background-color: rgba(132, 119, 119, 0.087);
+    color: rgba(1, 255, 1, 0.861);
+    font-weight: bolder;
+    transition: all .2s;
+}
+#connect:hover{
+    color: #212121;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+#lastbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: rgba(132, 119, 119, 0.087);
+    border: 2px solid rgba(124, 119, 119, 0.719);
+    border-radius: 30px;
+}
+#lastmainsame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: larger;
+}
+#hreff{
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all .150s;
+}
+#hreff:hover{
+    border-bottom: 3px solid whitesmoke;
+}
+#arrowcontact{
+    cursor: pointer;
+    top: 616%;
+    left: 90%;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+@media(max-width:800px){
+    #arrowcontact{
+        top: 745%;
+    }
+    #rightbox{
+        margin: 10px;
+        padding: 20px 80px 20px 80px;
+        max-width: 500px;
+    }
+    input{
+        width: 200px;
+    }
+    #lastbox{
+        max-width: 400px;
+        padding: 15px 20px 15px 30px;
+    }
+    #lastmainsame{
+        font-size: medium;
+        max-width: 200px;
+    }
+    #icons{
+        width: 30px;
+        height: 30px;
+    }
+}

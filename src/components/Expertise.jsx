@@ -12,6 +12,8 @@ import mysql from "../styling/images/mysql.png";
 import redux from "../styling/images/redux.png";
 import tick from '../styling/images/tick.png'
 import py from '../styling/images/python.png'
+import arrow from "../styling/images/arrowdown.png";
+import {Link} from 'react-scroll'
 import { useState } from 'react';
 function Expertise() {
     const [selected, setSelected] = useState(null);
@@ -92,6 +94,9 @@ function Expertise() {
       }
   return (
     <div id='expertise'>
+    <Link spy={true} smooth={true} offset={-50} duration={500} to="work">
+        <img id="arrowexpertise" src={arrow} />
+      </Link>
         <div id='headexpertise'>
         <p style={{fontWeight:100}} id='helo'>Explore My</p>
         <p id='name'>Expertise</p>

@@ -3,9 +3,14 @@ import '../styling/About.css'
 import me2 from '../styling/images/me2.jpeg'
 import exp from '../styling/images/experience.png'
 import educ from '../styling/images/education.png'
+import arrow from "../styling/images/arrowdown.png";
+import {Link} from 'react-scroll'
 function About() {
   return (
     <div id='about'>
+    <Link spy={true} smooth={true} offset={-50} duration={500} to="expertise">
+        <img id="arrowabout" src={arrow} />
+      </Link>
       <div id='upperabout'>
         <p style={{fontWeight:100}} id='helo'>Get to know More </p>
         <p id='name'>About Me</p>
@@ -21,7 +26,7 @@ function About() {
             <p  id='fourth'>Ex-Campus Ambasador @Acmegrade</p>
 
           </div>
-          <div id='same2' >
+          <div id='same2' className='educa'>
             <img id='imagesame' src={educ} />
             <p id='second'>Education</p>
             <p id='third'>BTech CSE</p>

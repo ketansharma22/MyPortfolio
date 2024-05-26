@@ -11,8 +11,7 @@
     position: fixed;
     background-color: transparent;
     z-index: 1;
-width: 100vw;
-max-width: 100vw;
+    width: 100vw;
 max-height: 120px;   
 }
 nav{
@@ -21,11 +20,11 @@ nav{
     font-family:Georgia, 'Times New Roman', Times, serif;
     gap: 40px;
     font-size: x-large;
-    padding: 50px;
+    padding: 20px;
     justify-content: center;
     color: whitesmoke;
     font-weight: 100;
-    background-color: rgba(0, 0, 0, 0.489);
+    background-color: rgba(78, 83, 83, 0.482);
     backdrop-filter: blur(10px);
     height: 120px;
     max-width: 80vw;
@@ -33,6 +32,52 @@ nav{
     border-bottom-right-radius: 40px;
 
 }
+#threemain{
+    display: none;
+}
+#threedot{
+    
+    margin: auto;
+    top: 50px;
+    right: 20px;
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+#dropdown-menu{
+    position: absolute;
+    top: 50px;
+    color: whitesmoke;
+    font-weight: 100;
+    background-color: #21212198;
+    backdrop-filter: blur(10px);
+    margin: auto;;
+    right: 60px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media(max-width:800px){
+    nav{
+        display: none;
+    }
+    #threemain{
+        display: initial;
+    }
+}
+
+
+
+
 /* color: #213547; 
 color: #747bff;
 color: #535bf2;*/
