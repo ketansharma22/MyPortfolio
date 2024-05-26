@@ -2,7 +2,7 @@
     max-width: 1600px;
     height: 99vh;
     font-family: sans-serif;
-    margin: 50px auto;
+    margin: 50px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,7 +47,7 @@
 #samebox{
     background-color: rgba(132, 119, 119, 0.087);
     border: 2px solid rgba(124, 119, 119, 0.719);
-    width: 350px;
+    max-width: 350px;
     height: 140px;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -73,10 +73,14 @@
     }
     #mainachievement{
         max-width: 95%;
+        margin: 0px;
         gap: 10px;
     }
+    #achievements{
+        padding: 0px;
+    }
     #imagee{
-        width: 150px;
+        max-width: 150px;
         height: 150px;
     }
     #imageachive{
@@ -86,9 +90,19 @@
         gap: 10px;
     }
     #samebox{
-        padding: 10px;
+        margin: 0px;
         max-width: 150px;
         font-size: 10px;
     }
 
+}
+
+@media(max-width:370px){
+    #samebox{
+        font-size: 9px;
+    }
+    #imagee{
+        max-width: 100px;
+        max-height: 100px;
+    }
 }
