@@ -32,11 +32,13 @@ function Profile() {
         <p id="name">Ketan Sharma</p>
         <p id="role">async-Developer</p>
         <div id="butons">
-          <button id="same" style={{ backgroundColor: "whitesmoke" }}>
+          <a href="resumebest.pdf" download  id="same" style={{ backgroundColor: "whitesmoke" }}>
             Resume
-          </button>
+          </a>
           <button style={{ color: "whitesmoke" }} id="same">
-            Contact me
+            <Link spy={true} smooth={true} offset={-50} duration={500} to="contact">
+              Contact
+            </Link>
           </button>
         </div>
         <div id="icons">

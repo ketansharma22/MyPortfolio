@@ -39,6 +39,9 @@ gap: 10px;
     font-size: xx-large;
 }
 #same{
+    text-decoration: none;
+    color:  #212121;
+    font-size: 13px;
     cursor: pointer;
     padding: 17px 40px ;
     font-weight: bolder;
