@@ -12,6 +12,8 @@ import mysql from "../styling/images/mysql.png";
 import redux from "../styling/images/redux.png";
 import tick from '../styling/images/tick.png'
 import py from '../styling/images/python.png'
+import mongo from '../styling/images/mongo.webp'
+import express from '../styling/images/express.png'
 import arrow from "../styling/images/arrowdown.png";
 import {Link} from 'react-scroll'
 import { useState } from 'react';
@@ -81,11 +83,25 @@ function Expertise() {
           desc: "Whenever data gets rowdy, I use MySQL to keep things structured. Tables turn, queries fly, but with MySQL, my data's never shy. Remember, when it comes to databases, I've always got the right joins and relations! 😉",
         },
         {
-            id: 10,
+            id: 11,
             name: "Python",
             image: py,
             desc: "Afraid of Snakes in Real life???  Still loves python.....😉",
           },
+          {
+            id: 12,
+            name: "Mongo DB",
+            image: mongo,
+            desc: "Heyy, we're glad about your new love of Mongo. However, you are NOT in charge of development for it.😉",
+          },
+          {
+            id: 13,
+            name: "Express Js",
+            image: express,
+            desc: "Express.js: Because who needs a framework that doesn't make you cry yourself to sleep at night ? ",
+          },
+
+
       ];
       const     handleclick=(index,description,naming)=>{
         setSelected(index);

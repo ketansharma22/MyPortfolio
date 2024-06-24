@@ -37,6 +37,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    width: 100px;
 }
 #icons{
     width: 60px;

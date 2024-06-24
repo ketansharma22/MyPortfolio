@@ -18,7 +18,7 @@ function Header() {
         </div>
         {menuOpen && (
           <div id="dropdown-menu">
-            <Link spy={true} smooth={true} offset={-50} duration={500} to="profile">
+            <Link  spy={true} smooth={true} offset={-50} duration={500} to="profile">
               Profile
             </Link>
             <Link spy={true} smooth={true} offset={-50} duration={500} to="about">
@@ -41,15 +41,16 @@ function Header() {
       </div>
 
       <nav>
-        <Link spy={true} smooth={true} offset={50} duration={500} to="profile">
+        <Link style={{cursor:"pointer"}} spy={true} smooth={true} offset={50} duration={500} to="profile">
           Profile
         </Link>
 
-        <Link spy={true} smooth={true} offset={-50} duration={500} to="about">
+        <Link style={{cursor:"pointer"}} spy={true} smooth={true} offset={-50} duration={500} to="about">
           About
         </Link>
 
         <Link
+        style={{cursor:"pointer"}}
           spy={true}
           smooth={true}
           offset={50}
@@ -59,11 +60,12 @@ function Header() {
           Expertise
         </Link>
 
-        <Link spy={true} smooth={true} offset={50} duration={500} to="work">
+        <Link style={{cursor:"pointer"}} spy={true} smooth={true} offset={50} duration={500} to="work">
           Work
         </Link>
 
         <Link
+        style={{cursor:"pointer"}}
           spy={true}
           smooth={true}
           offset={50}
@@ -73,7 +75,7 @@ function Header() {
           Achievements
         </Link>
 
-        <Link spy={true} smooth={true} offset={50} duration={500} to="contact">
+        <Link style={{cursor:"pointer"}} spy={true} smooth={true} offset={50} duration={500} to="contact">
           Contact{" "}
         </Link>
       </nav>
