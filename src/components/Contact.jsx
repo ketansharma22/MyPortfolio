@@ -6,7 +6,9 @@ import linkedin from '../styling/images/linkedin.png'
 import arrow from "../styling/images/arrowdown.png";
 import {Link} from 'react-scroll'
 import toast from "react-hot-toast";
+
 function Contact() {
+  
   const[name,setName]=useState("")
   const[email,setEmail]=useState("")
   const[data,setData]=useState({
@@ -18,7 +20,7 @@ function Contact() {
     e.preventDefault()
     // setData({name:name,email:email})
     console.log(data);
-    toast.success("I'll Surely Catch up to you!!")
+    toast.success("I'll catch up soon!!")
     setData({
       name:"",
       email:"",
