@@ -19,6 +19,10 @@ function Contact() {
     // setData({name:name,email:email})
     console.log(data);
     toast.success("I'll Surely Catch up to you!!")
+    setData({
+      name:"",
+      email:"",
+    })
     
   }
   const handleChange = (e) => {
