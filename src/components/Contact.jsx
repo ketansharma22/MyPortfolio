@@ -5,7 +5,8 @@ import mail from '../styling/images/mail.png'
 import linkedin from '../styling/images/linkedin.png'
 import arrow from "../styling/images/arrowdown.png";
 import {Link} from 'react-scroll'
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
   
@@ -20,7 +21,10 @@ function Contact() {
     e.preventDefault()
     // setData({name:name,email:email})
     console.log(data);
-    toast.success("I'll catch up soon!!")
+    toast("we'll catch up soon!! ", {
+      position: 'bottom-right',
+      autoClose: 5000,
+    })
     setData({
       name:"",
       email:"",
