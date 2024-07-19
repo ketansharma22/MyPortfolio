@@ -22,12 +22,12 @@ function About() {
           <div id='same2' >
             <img id='imagesame' src={exp} />
             <p id='second'>Experience</p>
-            <p id='third'>Web-Dev Intern @CodSoft </p>
+            <p style={{textAlign:'center'}} id='third'>Developed my own projects and solved many bugs on my own !!</p>
             <p  id='fourth'>Ex-Campus Ambasador @Acmegrade</p>
 
           </div>
           <div id='same2' className='educa'>
-            <img id='imagesame' src={educ} />
+            <img id='imagesame'  src={educ} />
             <p id='second'>Education</p>
             <p id='third'>BTech CSE</p>
             <p id='fourth'>MMDU Ambala</p>

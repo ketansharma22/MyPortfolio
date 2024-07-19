@@ -58,6 +58,7 @@
     font-family: sans-serif;
     padding: 30px;
 gap: 7px;
+text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +78,7 @@ gap: 7px;
     
 }
 #down{
+
     width:600px ;
     height: 100px;
     border-radius: 20px;
