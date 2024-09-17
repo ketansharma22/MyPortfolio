@@ -20,9 +20,9 @@ function Achievements() {
   };
   return (
     <div id="achievements">
-      <Link spy={true} smooth={true} offset={-50} duration={500} to="contact">
+      {/* <Link spy={true} smooth={true} offset={-50} duration={500} to="contact">
         <img id="arrowachievement" src={arrow} />
-      </Link>
+      </Link> */}
       <div id="headachivements">
         <p style={{ fontWeight: 100 }} id="helo">
           Let's Together Review My{" "}

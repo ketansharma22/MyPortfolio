@@ -4,9 +4,10 @@ import Header from './components/Header'
 import About from './components/About'
 import Profile from './components/Profile'
 import Expertise from './components/Expertise'
-import Projects from './components/Projects'
+// import Projects from './components/Projects'
 import Achievements from './components/Achievements'
 import Contact from './components/Contact'
+import Work from './components/Work'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
       <Profile/>
       <About/>
       <Expertise/>
-      <Projects/>
+      <Work/>
+      {/* <Projects/> */}
       <Achievements/>
       <Contact/>
     </div>

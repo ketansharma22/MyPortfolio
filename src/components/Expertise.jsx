@@ -15,7 +15,10 @@ import py from '../styling/images/python.png'
 import mongo from '../styling/images/mongo.webp'
 import express from '../styling/images/express.png'
 import arrow from "../styling/images/arrowdown.png";
+import typee from '../styling/images/type.svg'
+import native from '../styling/images/native.svg'
 import {Link} from 'react-scroll'
+import gsap from '../styling/images/gsap.svg'
 import { useState } from 'react';
 function Expertise() {
     const [selected, setSelected] = useState(null);
@@ -99,6 +102,24 @@ function Expertise() {
             name: "Express Js",
             image: express,
             desc: "Express.js: Because who needs a framework that doesn't make you cry yourself to sleep at night ? ",
+          },
+          {
+            id: 14,
+            name: "TypeScript",
+            image: typee,
+            desc: "Why did the TypeScript developer break up with JavaScript? Because they needed more type security in their relationship!",
+          },
+          {
+            id: 15,
+            name: "React-Native",
+            image: native,
+            desc: "Why do React Native developers make good friends? Because they always know how to handle your state!",
+          },
+          {
+            id: 16,
+            name: "GSAP",
+            image: gsap,
+            desc: "GSAP makes animating on the web feel like playing with magic—just wave your code wand and watch the magic happen.",
           },
 
 
