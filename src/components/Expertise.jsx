@@ -19,6 +19,8 @@ import typee from '../styling/images/type.svg'
 import native from '../styling/images/native.svg'
 import {Link} from 'react-scroll'
 import gsap from '../styling/images/gsap.svg'
+import websocket from '../styling/images/websocket.png'
+import webrtc from '../styling/images/webrtc.svg'
 import { useState } from 'react';
 function Expertise() {
     const [selected, setSelected] = useState(null);
@@ -120,6 +122,18 @@ function Expertise() {
             name: "GSAP",
             image: gsap,
             desc: "GSAP makes animating on the web feel like playing with magic—just wave your code wand and watch the magic happen.",
+          },
+          {
+            id: 17,
+            name: "WebSockets",
+            image: websocket,
+            desc: "WebSockets are like having a two-way street for data, allowing servers to push updates to clients instantly, so you can get live notifications about everything from sports scores to stock market changes without constantly refreshing your browser!",
+          },
+          {
+            id: 18,
+            name: "WebRTC",
+            image: webrtc,
+            desc: "WebRTC can connect two users for a video call with just a few lines of JavaScript, making it incredibly easy for developers to build real-time communication apps!",
           },
 
 

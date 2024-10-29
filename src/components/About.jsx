@@ -22,7 +22,7 @@ function About() {
           <div id='same2' >
             <img id='imagesame' src={exp} />
             <p id='second'>Experience</p>
-            <p style={{textAlign:'center'}} id='third'>Developed my own projects and solved many bugs on my own !!</p>
+            <p style={{textAlign:'center'}} id='third'>IT-App Intern @Informatica Bangalore</p>
             <p  id='fourth'>Ex-Campus Ambasador @Acmegrade</p>
 
           </div>
@@ -35,7 +35,7 @@ function About() {
           </div>
           </section>
           <section id='down'>
-            <p id='third'>I am Ketan Sharma, a seasoned software engineer with a robust foundation in computer science and proficiency in Programming and Developing Frontend web applications. I excel in crafting collaborating on diverse projects, and bringing an innovative approach to software development. </p>
+            <p id='third'>I am Ketan Sharma, a seasoned software engineer with a robust foundation in computer science and proficiency in Programming and Developing Full-Stack web as well as mobile applications. I excel in crafting collaborating on diverse projects, and bringing an innovative approach to software development. </p>
           </section>
         </div>
       </section>

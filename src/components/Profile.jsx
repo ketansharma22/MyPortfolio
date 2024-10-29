@@ -32,7 +32,7 @@ function Profile() {
         <p id="name">Ketan Sharma</p>
         <p id="role">async-Developer</p>
         <div id="butons">
-          <a href="resumebest.pdf" download  id="same" style={{ backgroundColor: "whitesmoke" }}>
+          <a href="ResumeOP.pdf" download  id="same" style={{ backgroundColor: "whitesmoke" }}>
             Resume
           </a>
           <button style={{ color: "whitesmoke" }} id="same">
