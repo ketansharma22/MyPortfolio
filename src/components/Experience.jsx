@@ -79,9 +79,12 @@ function ExperienceItem({ exp, T, i, vis }) {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: 14,
-                background: T.grad,
+                backgroundImage: T.grad,
                 WebkitBackgroundClip: "text",
+                backgroundClip: "text",
                 WebkitTextFillColor: "transparent",
+                color: "transparent",
+                display: "inline-block",
                 marginTop: 2,
               }}
             >
@@ -148,11 +151,11 @@ export default function Experience({ T }) {
             <span
               style={{
                 backgroundImage: T.grad,
-WebkitBackgroundClip: "text",
-backgroundClip: "text",
-WebkitTextFillColor: "transparent",
-color: "transparent",
-display: "inline-block",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                color: "transparent",
+                display: "inline-block",
               }}
             >
               Experience

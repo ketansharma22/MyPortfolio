@@ -138,7 +138,7 @@ export default function About({ T }) {
                     marginTop: 2,
                   }}
                 >
-                  React + Node.js
+                  Next js + TypeScript
                 </div>
               </div>
             </div>
