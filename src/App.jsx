@@ -13,8 +13,8 @@ import About          from "./components/About";
 import Skills         from "./components/Skills";
 import Projects       from "./components/Projects";
 import Experience     from "./components/Experience";
-// import Services    from "./components/Services"; // hidden for now
-import Testimonials   from "./components/Testimonials";
+import Services    from "./components/Services"; // hidden for now
+// import Testimonials   from "./components/Testimonials";
 import Contact        from "./components/Contact";
 import Footer         from "./components/Footer";
 
@@ -47,8 +47,8 @@ export default function App() {
         <Skills       T={T} />
         <Projects     T={T} />
         <Experience   T={T} />
-        {/* <Services T={T} /> hidden for now */}
-        <Testimonials T={T} />
+        <Services     T={T} /> 
+        {/* <Testimonials T={T} /> */}
         <Contact      T={T} />
       </main>
       <Footer T={T} />

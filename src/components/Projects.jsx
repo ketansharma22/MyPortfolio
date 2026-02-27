@@ -130,12 +130,16 @@ function ProjectModal({ proj, T, onClose }) {
           </div>
 
           <div style={{ display: "flex", gap: 12 }}>
-            <GradientBtn T={T} style={{ flex: 1, textAlign: "center" }}>
-              🌐 Live Demo
-            </GradientBtn>
-            <GradientBtn T={T} outline style={{ flex: 1, textAlign: "center" }}>
-              ⬡ GitHub
-            </GradientBtn>
+          <a href={proj.live} target="_blank" rel="noopener noreferrer" style={{ flex: 1 }}>
+  <GradientBtn T={T} style={{ width: "100%", textAlign: "center" }}>
+    🌐 Live Demo
+  </GradientBtn>
+</a>
+<a href={proj.github} target="_blank" rel="noopener noreferrer" style={{ flex: 1 }}>
+  <GradientBtn T={T} outline style={{ width: "100%", textAlign: "center" }}>
+    ⬡ GitHub
+  </GradientBtn>
+</a>
           </div>
         </div>
       </div>
@@ -280,7 +284,8 @@ function ProjectCard({ proj, T, i, vis, onOpen }) {
             </button>
             <a
               href={proj.github}
-              onClick={(e) => e.preventDefault()}
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="GitHub"
               style={{
                 padding: "9px 14px",
