@@ -1,3 +1,4 @@
+
 export const NAV_LINKS = [
   "About",
   "Skills",
@@ -35,6 +36,7 @@ export const ALL_SKILL_TAGS = [
   "GraphQL", "Firebase", "Tailwind", "Figma", "Jest", "Cypress",
 ];
 
+
 export const PROJECTS = [
   {
     id: 1,
@@ -61,30 +63,48 @@ export const PROJECTS = [
 ];
 
 export const PROJECT_FILTERS = [
-  { id: "all",       label: "All Projects" },
+  { id: "all",   label: "All" },
   { id: "fullstack", label: "Full Stack" },
 ];
 
 export const EXPERIENCE = [
   {
-    company: "Informatica, India",
-    role: "Associate Software Developer",
-    duration: "Jul 2025 – Present",
+    company: "Salesforce",
+    role: "AMTS-1",
+    fullRole: "Associate Member of Technical Staff",
+    duration: "Mar 2026 – Present",
     location: "Bengaluru, KA",
-    color: "#00BFFF",
+    color: "#00A1E0",
+    logo: "/salesforce-logo.png",
     points: [
-      "Building enterprise-grade UI for cloud ecosystem monitoring and release management using React, Redux, and AEM CMS.",
+      "Onboarding as a full-time engineer, diving deep into the Salesforce ecosystem and internal engineering workflows.",
+      "Actively learning Lightning Web Components (LWC) with a focus on advanced patterns and best practices.",
+      "Exploring Salesforce platform architecture, data models, and development lifecycle.",
+    ],
+  },
+  {
+    company: "Informatica",
+    role: "Associate Software Developer",
+    fullRole: "Associate Software Developer",
+    duration: "Jul 2025 – March 2026",
+    location: "Bengaluru, KA",
+    color: "#FF6B2B",
+    logo: "/informatica-logo.png",
+    points: [
+      "Built enterprise-grade UI for cloud ecosystem monitoring and release management using React, Redux, and AEM CMS.",
       "Developed and maintained responsive UI components streamlining visibility into incident outages, release cycles, and maintenance workflows across AWS and Azure.",
       "Integrated UI with Adobe Experience Manager (AEM) CMS, enabling dynamic content rendering and seamless updates for end-users.",
       "Tech Stack: React, SCSS, Bootstrap, Redux.",
     ],
   },
   {
-    company: "Informatica, India",
+    company: "Informatica",
     role: "Software Developer Trainee",
+    fullRole: "Software Developer Trainee",
     duration: "Nov 2024 – Jun 2025",
     location: "Bengaluru, KA",
-    color: "#8B5CF6",
+    color: "#FF6B2B",
+    logo: "/informatica-logo.png",
     points: [
       "Developed and deployed Lightning Web Components (LWC) frontend features, leveraging Coveo integration for enhanced search functionality.",
       "Implemented front-end enhancements and bug fixes on the React AEM platform, ensuring component stability.",
@@ -159,6 +179,7 @@ export const HERO_TYPING_WORDS = [
   "UI/UX Craftsman",
   "Full Stack Builder",
 ];
+
 export const HERO_STATS = [
   { n: "1.5+", l: "Years of Experience" },
   { n: "2",    l: "Major Projects" },
@@ -167,13 +188,14 @@ export const HERO_STATS = [
 ];
 
 export const CONTACT_INFO = [
-  { icon: "📍", label: "Location", val: "Bangalore, India" },
-  { icon: "✉️", label: "Email", val: "kanu220504@gmail.com" },
-  { icon: "💬", label: "Response Time", val: "Within 12 hours" },
+  { icon: "📍", label: "Location",      val: "Bangalore, India" },
+  { icon: "✉️", label: "Email",         val: "ketan@example.com" },
+  { icon: "💬", label: "Response Time", val: "Within 24 hours" },
 ];
 
 export const SOCIAL_LINKS = [
-  { icon: "in", label: "LinkedIn", href: "https://github.com/ketansharma22" },
-  { icon: "𝕏", label: "Twitter", href: "https://x.com/ketanshrma" },
-  { icon: "@", label: "Email", href: "mailto:kanu220504@gmail.com" },
+  { icon: "⬡",  label: "GitHub",   href: "https://github.com/ketansharma22" },
+  { icon: "in",  label: "LinkedIn", href: "https://www.linkedin.com/in/ketansharma22/" },
+  { icon: "𝕏",  label: "Twitter",  href: "https://x.com/ketanshrma" },
+  { icon: "@",   label: "Email",    href: "mailto:ketan@example.com" },
 ];
